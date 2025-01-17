@@ -1,4 +1,4 @@
-log.txt
-error.txt
-traceback.txt
-.vscode
+/log.txt
+/error.txt
+/traceback.txt
+.vscode/
