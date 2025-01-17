@@ -2,29 +2,53 @@
 
 # 声明此游戏使用的角色。颜色参数可使角色姓名着色。
 
-define e = Character("艾琳")
-
+define rm = Character("博丽灵梦")
+define mrs = Character("雾雨魔理沙")
+define kjsj = Character("鬼人正邪")
 
 # 游戏在此开始。
 
 label start:
 
-    # 显示一个背景。此处默认显示占位图，但您也可以在图片目录添加一个文件
-    # （命名为 bg room.png 或 bg room.jpg）来显示。
+    stop music fadeout 1.0
 
-    scene bg room
+    "这是一个东方Project的二次创作同人游戏。"
 
-    # 显示角色立绘。此处使用了占位图，但您也可以在图片目录添加命名为
-    # eileen happy.png 的文件来将其替换掉。
+    "与原作设定有所出入"
 
-    show eileen happy
+    "请勿将本作任何设定、剧情带入原作。"
 
-    # 此处显示各行对话。
+    "エンジョイてぇゲームです(笑)"
 
-    e "您已创建一个新的 Ren'Py 游戏。"
+    jump Intro
 
-    e "当您完善了故事、图片和音乐之后，您就可以向全世界发布了！"
+label Intro:
 
-    # 此处为游戏结尾。
+    scene bg hakurei_shrine_night
+
+    "幻想乡的夜晚，一切都那么安静。"
+    with dissolve
+    scene bg kishinjou_night
+    show kjsj nm p13 at right
+
+    kjsj "哎哟卧槽"
+    kjsj "日本人咋这么好"
+    kjsj "说话为什么都不带有攻击性呢"
+
+    show kjsj nm p7 at right
+
+    "少女祈祷中"
+    "几分钟后"
+
+    show kjsj nm p8 at right 
+
+    kjsj "哦错了"
+    show kjsj idle p0 at right
+
+    kjsj "把她们的素质颠倒不就坏了吗"
+    kjsj "（真是个天才的说）"
+    hide kjsj idle p0
+
+    "此时正在休息的众人并不知道，由天邪鬼发动的另一场异变开始了。"
 
     return

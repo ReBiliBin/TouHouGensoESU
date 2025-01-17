@@ -1,0 +1,18 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 30: end of line expected.
+    with dissolve 1.0
+                  ^
+
+File "game/script.rpy", line 52: end of line expected.
+    with fadeout 1.0
+                 ^
+
+File "game/script.rpy", line 54: end of line expected.
+    with dissolve 1.0
+                  ^
+
+Ren'Py Version: Ren'Py 8.3.4.24120703
+Fri Jan 17 23:20:08 2025
