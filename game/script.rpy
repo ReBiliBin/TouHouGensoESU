@@ -24,11 +24,11 @@ label start:
 
 label Intro:
 
-    scene bg hakurei_shrine_night
+    scene bg hakurei_shrine night
 
     "幻想乡的夜晚，一切都那么安静。"
     with dissolve
-    scene bg kishinjou_night
+    scene bg kishinjou night
     show kjsj nm p13 at right
 
     kjsj "哎哟卧槽"
