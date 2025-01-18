@@ -6,3 +6,5 @@ android.keystore
 bundle.keystore
 android.json
 /game/saves/*.*
+/game/cache/
+*/*.rpyc
