@@ -98,10 +98,31 @@ label Intro:
 
     scene black
     
-    show text "此时，在雾雨邸：" at truecenter with dissolve
+    show text "{color=#fff}与此同时，在雾雨邸：{/color}" at truecenter with dissolve
+    
+    pause 1.5
+
+    hide text with dissolve
 
     jump intro_mrs
 
 label intro_mrs:
 
     scene bg computers night with dissolve
+
+    show mrs nm p43
+    mrs "哇哈哈哈"
+    mrs "最新最热的爱丽丝色图"
+    mrs "我就是要看这个口牙！！！"
+    show mrs nm p45:
+        ease 1.0 truecenter
+        ease 1.0 center
+        ease 1.0 truecenter
+        ease 1.0 center
+        ease 1.0 truecenter
+        ease 1.0 center
+    "（忍不住轻哼起来）"
+
+    pov "哎哟卧槽，魔理沙轻哼"
+    
+    return
