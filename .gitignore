@@ -1,4 +1,8 @@
-/log.txt
-/error.txt
-/traceback.txt
+log.txt
+errors.txt
+traceback.txt
 .vscode/
+android.keystore
+bundle.keystore
+android.json
+/game/saves/*.*

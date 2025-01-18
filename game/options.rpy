@@ -34,7 +34,7 @@ define gui.about = _p("""
 ## 在构建的发布版中，可执行文件和目录所使用的短名称。此处仅限使用 ASCII 字符，并
 ## 且不能包含空格、冒号或分号。
 
-define build.name = "TouHouESUgirls"
+define build.name = "thgsej"
 
 
 ## 音效和音乐 #######################################################################
@@ -50,8 +50,8 @@ define config.has_voice = True
 ## 为了让用户在音效或语音轨道上播放测试音频，请取消对下面一行的注释并设置播放的
 ## 样本声音。
 
-define config.sample_sound = "audio/clam-jinja.mp3"
-# define config.sample_voice = "sample-voice.ogg"
+define config.sample_sound = "splash-baka.mp3"
+define config.sample_voice = "kurae.wav"
 
 
 ## 将以下语句取消注释就可以设置标题界面播放的背景音乐文件。此文件将在整个游戏中
@@ -112,7 +112,7 @@ define config.window_hide_transition = Dissolve(.2)
 
 ## 控制默认的文字显示速度。默认的 0 为瞬间，而其他数字则是每秒显示出的字符数。
 
-default preferences.text_cps = 45
+default preferences.text_cps = 30
 
 
 ## 默认的自动前进延迟。数字越大，等待时间越长，有效范围为 0 - 30。
