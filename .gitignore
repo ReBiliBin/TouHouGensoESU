@@ -1,6 +1,7 @@
 log.txt
 errors.txt
 traceback.txt
+*/.vscode/
 .vscode/
 android.keystore
 bundle.keystore
